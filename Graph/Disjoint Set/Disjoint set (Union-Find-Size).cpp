@@ -45,6 +45,7 @@ public:
 	    }
 	}
 };
+
 int main() {
     DSU dsu(6);
     dsu.Union(0, 1);
