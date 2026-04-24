@@ -7,7 +7,6 @@
 //Approach-1 (Storing mask in map for memoizing) - Recursion + Memoization
 class Solution {
 public:
-    
     int m, n;
     int target_mask;
     vector<int> result;
