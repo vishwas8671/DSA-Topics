@@ -15,7 +15,6 @@ public:
     int m, n;
     int solve(int i, int j, vector<vector<int>>& grid,
               vector<vector<int>>& t) {
-        
         if (i >= grid.size() || j >= grid[0].size()) 
             return 0;
 
