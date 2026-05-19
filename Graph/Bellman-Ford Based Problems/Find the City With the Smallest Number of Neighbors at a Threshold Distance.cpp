@@ -32,6 +32,7 @@ public:
                     shortestPathDistances[u] + wt < shortestPathDistances[v]) {
                     shortestPathDistances[v] = shortestPathDistances[u] + wt;
                 }
+                
                 //bi-directional edge
                 if (shortestPathDistances[v] != INT_MAX &&
                     shortestPathDistances[v] + wt < shortestPathDistances[u]) {
